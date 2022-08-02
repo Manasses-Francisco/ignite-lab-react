@@ -1,4 +1,4 @@
-    query GetLessonBySlug ($slug:String) {
+query GetLessonBySlug ($slug:String) {
     lesson(where: {slug: $slug}) {
         title
         videoId
